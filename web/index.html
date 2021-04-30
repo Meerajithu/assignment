@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title></title>
+        <style>
+            table,th,td
+            {
+                border: 1px solidblack; border-collapse: collapse;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form>
+        <div class = "container">
+            <div class = "form_group">  
+            <label> Employee id: </label> &nbsp; 
+            <input type="text" name="empid"><br>
+            </div>
+            <div class = "form_group">  
+            <label> First Name:</label>&nbsp; &nbsp;
+             <input type="text" name="fname"><br>
+            </div>
+            <div class = "form_group">  
+            <label> Last Name:</label>&nbsp; &nbsp;
+            <input type="text" name="lname"><br>
+            </div>
+            <div class = "form_group">  
+            <label> Department:</label>&nbsp; &nbsp;
+            <select name="dep">
+                <option value=Accounting></option>
+                <option value=Technical></option>
+                <option value=Logistics></option>
+            </select>
+            </div>
+            <div class = "form_group">  
+            <label>Address:</label>&nbsp; &nbsp;
+            <input type="text" name="add"><br>
+            </div>
+            <div class = "form_group">  
+            <label> State:</label>&nbsp; &nbsp;
+            <input type="text" name="state"><br>
+            </div>
+            <div class = "form_group">  
+            <label> Country:</label>&nbsp; &nbsp;
+            <input type="text" name="count"><br>
+            </div>
+            <div class = "form_group">  
+            <label> Zip code:</label>&nbsp; &nbsp;
+            <input type="text" name="zip"><br>
+            </div>
+            <input type="submit" name="save" value="insert" onclick="window.location.href='insert.jsp'">
+            </div>
+               </form>
+        
+    </body>
+</html>
